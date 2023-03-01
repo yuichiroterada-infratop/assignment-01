@@ -72,7 +72,6 @@ footer {
 
   main{
     width: 100%;
-    padding-left: 5%;
     display: flex;
     flex-direction: column;
   }
@@ -80,6 +79,8 @@ footer {
   .main-content-box{
     width: 90%;
     margin-bottom: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
   }
 
   .main-content-box:last-child{
@@ -87,6 +88,18 @@ footer {
   }
 
   .content-img1{
+    height: 150px;
+    background-size: cover;
+    background-position: bottom;
+  }
+
+   .content-img2{
+    height: 150px;
+    background-size: cover;
+    background-position: bottom;
+  }
+
+   .content-img3{
     height: 150px;
     background-size: cover;
     background-position: bottom;
