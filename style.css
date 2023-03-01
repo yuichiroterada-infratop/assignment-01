@@ -64,3 +64,32 @@ footer {
   height: 50px;
   background-color: #aaa;
 }
+
+@media screen and (max-width:768px){
+  header{
+    width: 100%;
+  }
+
+  main{
+    width: 100%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-content-box{
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .main-content-box:last-child{
+    margin-bottom: 0;
+  }
+
+  .content-img1{
+    height: 150px;
+    background-size: cover;
+    background-position: bottom;
+  }
+}
+
